@@ -1,0 +1,5 @@
+FROM 
+    Signups s
+LEFT JOIN 
+    Confirmations c 
+    ON s.user_id = c.user_id
